@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // do something
                 String str = send_text.getText().toString();
-                receiver_msg.setText("Hello ,"+str+"!");
+                receiver_msg.setText("Hello,"+str+"!! ");
             }
         });
 
